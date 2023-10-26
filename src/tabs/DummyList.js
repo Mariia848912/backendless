@@ -1,9 +1,5 @@
-const DummyList = ({ title }) => {
-  return (
-    <>
-      <h1>{title}</h1>
-    </>
-  );
+const DummyList = () => {
+  return <p>information on the DummyList page</p>;
 };
 
 export default DummyList;

@@ -1,5 +1,0 @@
-const tabs = [
-  { id: "dummyTable", title: "Dummy Table", order: 1, path: "tabs/DummyTable" },
-  { id: "dummyChart", title: "Dummy Chart", order: 2, path: "tabs/DummyChart" },
-  { id: "dummyList", title: "Dummy List", order: 0, path: "tabs/DummyList" },
-];

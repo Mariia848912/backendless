@@ -1,9 +1,5 @@
-const DummyChart = ({ title }) => {
-  return (
-    <>
-      <h1>{title}</h1>
-    </>
-  );
+const DummyChart = () => {
+  return <p>information on the DummyChart page</p>;
 };
 
 export default DummyChart;
