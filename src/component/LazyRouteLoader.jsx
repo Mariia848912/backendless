@@ -10,18 +10,5 @@ export const LazyRouteLoader = ({ path }) => {
             </Suspense>)
 }
 
-/**
- * 
- *    console.log(path);
-    // const Component = lazy(() => import(`../${path}`));
-    const DummyChart = lazy(() => import('../tabs/dummyChart.js'));
-    return <DummyChart />
 
 
-
-        console.log(path);
-    // const Component = lazy(() => import(`../${path}`));
-    const DummyChart = import('../tabs/dummyChart.js');
-console.log(<DummyChart />);
-    return <DummyChart />
- */
